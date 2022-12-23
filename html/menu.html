@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.php" >Home</a>
+      <a href="material.php"><i class="fa fa-book"></i> Material </a>
+      <a href="contact_us.php"><i class = "fa fa-user"> </i>Contact</a>
+      <a href="about_us.php"><i class="fa fa-address-card"></i>About</a>
+      <a href="login.php" class=" lefticon"><i class="fa fa-sign-in "></i> Login </a>
+     
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    <script type="text/javascript">
+      var active = 0;
+      for (var i = 0; i < document.links.length; i++) {
+          if (document.links[i].href === document.URL) {
+              active = i;
+          }
+      }
+      document.links[active].className = 'active';
+    </script>
+
+    </div>
+        <hr>
+        <img class="hrline" src="img/line.png" alt="no image">
+        <!-- Slideshow container -->
+
+  </body>
+</html>
